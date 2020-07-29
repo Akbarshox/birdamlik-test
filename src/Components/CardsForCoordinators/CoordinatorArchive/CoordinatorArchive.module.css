@@ -1,0 +1,75 @@
+.header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin: 0;
+    color: #000000;
+}
+
+.deadline {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #333333;
+    margin: 0;
+}
+
+.info {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #333333;
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+
+.SeeAll {
+    font-size: 10px;
+    line-height: 14px;
+    color: #0075FF;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.bottomInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NumofVolunteers {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+
+    margin: 0;
+}
+
+.status {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    margin: 0;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 15px;
+}
+
+.InProccess {
+    color: #FFD600;
+}
+
+.Finished {
+    /* color: #777777; */
+    color: #02A437;
+}
+

@@ -1,0 +1,33 @@
+.header{
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+/* identical to box height */
+color: #000000;
+padding:16px 16px 10px 16px;
+margin:0; 
+}
+
+.title{
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+margin-top: 10px;
+margin-bottom: 15px;
+color: #333333;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 30px 0;
+}
+
+@media(max-width: 600px) {
+    header {
+        /*margin-top: -40px!important;*/
+    }
+}

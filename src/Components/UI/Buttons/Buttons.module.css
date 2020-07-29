@@ -1,0 +1,145 @@
+.Button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+}
+
+.Button:disabled {
+    cursor: not-allowed;
+}
+
+.Yellow {
+    background: #FFD600;
+    border: 3px solid #FFF2AF;
+    border-radius: 2px;
+    color: #333333;
+    padding: 8px 15px;
+}
+
+.Yellow2 {
+    background: #FFD600;
+    border-radius: 2px;
+    color: #333333;
+    padding: 8px 15px;
+}
+
+.Grey {
+    color: #777777;
+    background: #E7E7E7;
+    /* padding: 11px 18px; */
+    padding: 8px 15px;
+    border: 3px solid #fff;
+}
+
+.Grey:hover {
+    background-color: #FFD600;
+    border: 3px solid #FFF2AF;
+    border-radius: 2px;
+    color: #333333;
+    padding: 8px 15px;
+    -webkit-transition: background-color 0.5s ease, color;
+    -moz-transition: background-color 0.5s ease, color;
+    -o-transition: background-color 0.5s ease, color;
+    transition: background-color 0.5s ease, color;
+}
+
+.Outlined2 {
+    background: #FFFFFF;
+    border: 1px solid #FFD600;
+    box-sizing: border-box;
+    padding: 9px 16.9px;
+}
+
+.Outlined2:hover {
+    background: #FFD600;
+    border: 3px solid #FFF2AF;
+    border-radius: 2px;
+    color: #333333;
+    padding: 8px 15px;
+    background-size: 100% 100%;
+    -webkit-transition: background-color 0.5s ease, color;
+    -moz-transition: background-color 0.5s ease, color;
+    -o-transition: background-color 0.5s ease, color;
+    transition: background-color 0.5s ease, color;
+}
+
+.Outlined {
+    background: #FFFFFF;
+    border: 1px solid #FFD600;
+    box-sizing: border-box;
+    padding: 8px 15px;
+}
+
+.activeButton {
+    background: #FFD600;
+    border: 3px solid #FFF2AF;
+    border-radius: 2px;
+    width: 100%;
+    outline: none;
+    color: #333333;
+    cursor: pointer;
+    font: inherit;
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.passiveButton {
+    color: #777777 !important;
+    background: #E7E7E7;
+    margin-top: 3px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 8px 15px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 2px;
+}
+
+.Notification {
+    background: none;
+    padding: 8px 15px;
+}
+
+.Grey7 {
+    color: #777777;
+    background: #E7E7E7;
+    padding: 8px 15px; 
+    border: 3px solid white
+}
+
+.Simple {
+    font-size: 14px;
+    background: #fff;
+}
+
+.ActiveSimple {
+    font-size: 14px;
+    background: #fff;
+    font-weight: bold;
+}
+
+.sideBarButtonBold {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: #FFD600;
+    text-align: right;
+    color: #333333;
+}
+
+.sideBarButton {
+    font-size: 18px;
+    line-height: 25px;
+    background-color: #FFD600;
+    text-align: right;
+    color: #333333;
+}
+

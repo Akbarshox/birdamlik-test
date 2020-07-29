@@ -1,0 +1,7 @@
+.underline{
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #333333;
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SeeAll {
+    font-size: 10px;
+    line-height: 14px;
+    color: #0075FF;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.MembersInfo {
+    display: flex;
+    align-items: center;
+}
+
+.ava {
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+    align-self: baseline;
+}
+
+.title {
+    margin: 0;
+    font-size: 14px;
+    line-height: 19px;
+    color: #777777;
+    margin: 0px 8px 0px 0px;
+}
+
+.title .stars {
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+.contacts{
+    margin: 3px 0;
+    font-size: 14px;
+}
+.contacts span{
+    font-weight: 700;
+}
+.contacts a{
+    text-decoration: none;
+    color: #333333;
+}

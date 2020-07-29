@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'OpenSans';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("./fonts/OpenSans/OpenSans-Regular.ttf");
+    src: url("./fonts/OpenSans/OpenSans-Regular.woff") format("woff");
+    src: url("./fonts/OpenSans/OpenSans-Regular.woff2") format("woff2");
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #ffffff;
+
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #ffffff;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #dadada;
+
+}
+
+::-moz-scrollbar {
+    width: 4px;
+    background-color: #ffffff;
+}
+
+::-moz-scrollbar-track {
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+::-moz-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #dadada;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 1px solid #FFD600;
+    height: 40px !important;
+    -webkit-text-fill-color: #333;
+    padding: 0;
+    padding-left: 5px;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.beta {
+    position: fixed;
+    z-index: 9999999999;
+}
+
+@media (max-width: 1250px) {
+    .beta {
+        position: fixed;
+        z-index: 9999999999;
+        width: 45px;
+    }
+}
+
+@media (max-width: 600px) {
+    .beta {
+        position: fixed;
+        z-index: 9999999999;
+        width: 35px;
+    }
+}
+
+@media (max-width: 320px) {
+    .beta {
+        position: fixed;
+        z-index: 9999999999;
+        width: 30px;
+    }
+}

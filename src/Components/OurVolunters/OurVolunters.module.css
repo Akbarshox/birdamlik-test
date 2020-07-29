@@ -1,0 +1,113 @@
+.OurVolunters {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.OurVolunters h1 {
+    color: #333;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+
+.abbr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+
+    color: #777777;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px #CCCCCC;
+    border-radius: 4px;
+    padding: 30px;
+    text-align: center;
+    margin: 60px 10px 50px 10px;
+    /* margin-bottom: 50px;
+    margin-left: 17px; */
+    /* width: 100%; */
+    box-sizing: border-box;
+}
+
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ava {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: #333333;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #777777;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bio {
+    margin: 11px 0px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #777777;
+}
+
+.card button{
+    width: 100%;
+}
+.swiper-container{
+    padding: 5px!important
+}
+.bgImage{
+    width: 100%;
+    height: auto;
+    background-image: url('../../assets/bgBlue.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media only screen and (max-width: 960px) {
+    .bgImage{
+        background-image: none;
+    }
+} 
+@media only screen and (max-width: 600px) {
+    
+    .OurVolunters{
+        margin-top: 35%;
+    }
+}

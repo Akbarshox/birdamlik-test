@@ -1,0 +1,145 @@
+.Input {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 0;
+}
+
+.label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #777777;
+    /*width: 100%;*/
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #CCCCCC;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 40px;
+    color: #333;
+    font-size: 14px;
+    background: #E7E7E7;
+    box-shadow: 0 0 0 0;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #ECECEC;
+}
+
+.Invalid {
+    border: 1px solid #E7E7E7;
+    color: #FF0000;
+}
+
+.InputElement::-webkit-input-placeholder {
+    /* Edge */
+    color: #777;
+    font-size: 14px;
+}
+
+.InputElement:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #777;
+    font-size: 14px;
+}
+
+.InputElement::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777;
+}
+
+textarea {
+    min-height: 90px;
+    max-height: 180px;
+    max-width: 100%;
+    background: #E7E7E7 !important;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0;
+    resize: none;
+}
+.textAreaBig {
+   height:80px
+}
+
+textarea::placeholder {
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    padding: 2px;
+    color: #777777;
+}
+
+select:focus {
+    color: #333;
+}
+
+option {
+    color: #777;
+    font-size: 12px;
+}
+
+option:first-of-type {
+    color: #ccc;
+}
+
+.file {
+    box-sizing: border-box;
+    font-size: 12px;
+    margin: 0;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    z-index: 10;
+}
+
+.file:after {
+    /* Mask the no file chosen label */
+    background-color: #E7E7E7;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10
+}
+
+.file::-webkit-file-upload-button {
+    background: #E7E7E7;
+    color: #555;
+    font: inherit;
+    padding: 0;
+    position: relative;
+    border: none;
+    text-align: left;
+    position: relative;
+    z-index: 100;
+    -webkit-appearance: none;
+    /* visibility: hidden; */
+}
+
+.file::before {
+    /* content: 'Выберите файл...'; */
+    display: inline-block;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    color: #777777;
+}
+

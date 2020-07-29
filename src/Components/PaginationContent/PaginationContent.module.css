@@ -1,0 +1,22 @@
+.header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin: 0;
+    color: #000000;
+}
+
+
+.archive {
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #0075FF;
+    text-align: right;
+    display: inline;
+    display: block;
+    margin-left: auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}

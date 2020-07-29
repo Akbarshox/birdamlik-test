@@ -1,0 +1,18 @@
+.makeGroup{
+    min-height: 62vh;
+}
+@media only screen and (min-height: 1500px) {
+    .makeGroup{
+        min-height: 74vh;
+    }
+}
+@media only screen and (min-height: 1400px) {
+    .makeGroup{
+        min-height: 70vh;
+    }
+}
+@media only screen and (min-height: 1300px) {
+    .makeGroup{
+        min-height: 67vh;
+    }
+}

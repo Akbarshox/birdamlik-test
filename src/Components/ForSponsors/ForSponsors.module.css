@@ -1,0 +1,36 @@
+.forSponsors {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.forSponsors h1 {
+    color: #333;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.forSponsors p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: #777777;
+}
+@media only screen and (max-width: 600px) {
+   
+.forSponsors p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.forSponsors{
+    margin-top: 35%;
+}
+}

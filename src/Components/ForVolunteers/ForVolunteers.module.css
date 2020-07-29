@@ -1,0 +1,50 @@
+.forVolunteers {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    background-image: url('../../assets/bgYellow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    min-height: 550px;
+    box-sizing: border-box;
+}
+
+.forVolunteers h1 {
+    color: #333;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.form {
+    top: 47px;
+    position: relative;
+    background: #FEFEFE;
+    border: 5px solid #FFD600;
+    border-radius: 4px;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form .info {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    margin: 0;
+    text-align: center;
+
+    color: #777777;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .forVolunteers {
+        margin-top: 30%;
+    }
+}

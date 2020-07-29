@@ -1,0 +1,13 @@
+.notfoundContent {
+    text-align: center;
+    margin-top: 15vh;  
+    /* min-height: 60vh;   */
+}
+
+.notfoundContent p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #777777;
+}

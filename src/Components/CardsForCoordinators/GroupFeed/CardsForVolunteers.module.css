@@ -1,0 +1,255 @@
+.header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin: 0;
+    color: #000000;
+}
+
+.deadline {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #333333;
+    margin: 0;
+}
+
+.info {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #333333;
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+
+.SeeAll {
+    font-size: 10px;
+    line-height: 14px;
+    color: #0075FF;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.bottomInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NumofVolunteers {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+
+    margin: 0;
+}
+
+.status {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    margin: 0;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 15px;
+}
+
+.InProccess {
+    color: #FFD600;
+}
+
+.Finished {
+    /* color: #777777; */
+    color: #02A437;
+}
+
+.contacts {
+    margin: 3px 0;
+    font-size: 14px;
+}
+
+.contacts span {
+    font-weight: 700;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/*Modal style*/
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalHeader {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 0;
+    color: #000000;
+    margin-bottom: 30px;
+    padding: 30px 30px 0px 30px;
+}
+
+.volunteerName {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0;
+}
+
+
+.MembersInfo {
+    display: flex;
+    align-items: center;
+}
+
+.ListItemChooseVolunteer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ListItemApplicant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F7F7F7;
+    padding: 12px 30px
+}
+
+.List {
+    padding: 0px 30px;
+}
+
+.ava {
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+    align-self: baseline;
+}
+
+.title {
+    margin: 0;
+    font-size: 14px;
+    line-height: 19px;
+    color: #777777;
+    margin: 0px 8px 0px 0px;
+}
+
+.title .stars {
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.ButtonsBox {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.ButtonsBox button:first-child {
+    margin-right: 30px;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .modalHeader {
+        padding: 20px 20px 0px 20px;
+
+    }
+
+    .ListItemApplicant {
+        padding: 12px 20px;
+        display: block;
+    }
+
+    .List {
+        padding: 0px 20px;
+    }
+
+    .ListItem {
+        display: block;
+    }
+
+    .ButtonsBox {
+        padding: 20px;
+    }
+
+    .rate {
+        margin-left: 87px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .title .stars {
+        font-size: 12px;
+    }
+
+}
+
+
+.comment {
+    background: #E7E7E7;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 90px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    min-width: 85%;
+    min-height: 68px;
+    max-height: 150px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.comment::placeholder {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 17px;
+}
+
+.comment:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 17px;
+}
+
+.comment::-ms-input-placeholder { /* Microsoft Edge */
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 17px;
+}
+@media only screen and (max-width: 700px) {
+    .comment{
+        width: 100%;
+        margin-left: 0;
+    }
+  }

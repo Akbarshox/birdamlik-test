@@ -1,0 +1,9 @@
+.title{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    /* identical to box height */
+    color: #000000;
+    margin:0;
+}

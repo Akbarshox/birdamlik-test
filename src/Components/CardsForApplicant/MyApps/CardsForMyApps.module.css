@@ -1,0 +1,169 @@
+.header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin: 0;
+    color: #000000;
+}
+
+.deadline {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #333333;
+    margin: 0;
+}
+
+.info {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #333333;
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+
+.SeeAll {
+    font-size: 10px;
+    line-height: 14px;
+    color: #0075FF;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.bottomInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NumofVolunteers {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+
+    margin: 0;
+}
+
+.status {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    margin: 0;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 15px;
+}
+
+.InProccess {
+    color: #FFD600;
+}
+
+.Waiting {
+    color: #777777;
+}
+
+.Finished {
+    color: #02A437;
+}
+
+/*Modal style*/
+.modal {
+    padding: 30px;
+}
+
+.modalHeader {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 0;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.ButtonsBox {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.ButtonsBox button:first-child {
+    margin-right: 30px;
+}
+
+.rateBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.leaveComment {
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #777777;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.comment {
+    background: #E7E7E7;
+    border: none;
+    padding: 12px 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    outline: none;
+}
+
+textarea::-webkit-input-placeholder {
+    font-family: "OpenSans";
+    color: #777;
+    font-size: 14px;
+}
+
+textarea:-moz-placeholder {
+    font-family: 'OpenSans';
+    color: #777;
+    font-size: 14px;
+}
+
+textarea::-moz-placeholder {
+    font-family: 'OpenSans';
+    color: #777;
+    font-size: 14px;
+}
+
+textarea:-ms-input-placeholder {
+    font-family: 'OpenSans';
+    color: #777;
+    font-size: 14px;
+}
+.contacts{
+    margin: 3px 0;
+    font-size: 14px;
+}
+.contacts span{
+    font-weight: 700;
+}
+.contacts a{
+    text-decoration: none;
+    color: #333333;
+}
+@media only screen and (max-width: 600px) {
+    .modal {
+        padding: 20px;
+    }
+}

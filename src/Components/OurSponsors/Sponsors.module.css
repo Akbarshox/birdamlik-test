@@ -1,0 +1,53 @@
+.Header {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    color: #333333;
+}
+.ChooseGroup{
+    min-height: 80vh;
+}
+.description {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    min-height: 90px;
+    color: #777777;
+}
+
+.nothingfound{
+    vertical-align: middle;
+    align-self: center;
+    align-items: center;
+    margin-top: 10vh;
+    font-size: 1.5em;
+}
+.retlogo{
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+    margin-left: 20px;
+    -webkit-transform: scaleX(-1) rotate(30deg);
+    transform:  scaleX(-1) rotate(30deg);
+    text-decoration: none;
+}
+.ava{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover;
+}
+@media only screen and (min-height: 1500px) {
+    .ChooseGroup{
+        min-height: 85vh;
+    }
+}
+@media only screen and (min-height: 1400px) {
+    .ChooseGroup{
+        min-height: 82vh;
+    }
+}

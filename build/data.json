@@ -1,0 +1,100 @@
+[
+  {
+    "id": 0,
+    "size": "S",
+    "name": "Crew neck t-shirt",
+    "image": "https://ih1.redbubble.net/image.76633323.6535/ra,unisex_tshirt,x2200,403c32:92341a482f,front-c,267,146,1000,1000-bg,f8f8f8.u1.jpg",
+    "price": 185
+  },
+  {
+    "id": 1,
+    "size": "M",
+    "name": "V-neck",
+    "image": "https://ih1.redbubble.net/image.76633323.6535/ssrco,unisex_tshirt,womens,403c32:92341a482f,front,tall_portrait,x1000-bg,f8f8f8.u1.jpg",
+    "price": 200
+  },
+  {
+    "id": 2,
+    "size": "ML",
+    "name": "Tanks",
+    "image": "https://ih0.redbubble.net/image.486914147.8800/ssrco,unisex_tshirt,womens,33281f:5b604c86ce,front,square_three_quarter,x1000-bg,f8f8f8.u1.jpg",
+    "price": 310
+  },
+  {
+    "id": 3,
+    "size": "X",
+    "name": "Striped T-shirt",
+    "image": "https://ih0.redbubble.net/image.324208366.3887/ra,unisex_tshirt,x2200,101010:01c5ca27c6,front-c,267,146,1000,1000-bg,f8f8f8.u1.jpg",
+    "price": 280
+  },
+  {
+    "id": 4,
+    "size": "XL",
+    "name": "Graphic",
+    "image": "https://ih0.redbubble.net/image.477297043.9491/ssrco,unisex_tshirt,womens,e0e1dd:064437a66d,front,square_three_quarter,x1000-bg,f8f8f8.u1.jpg",
+    "price": 50
+  },
+  {
+    "id": 5,
+    "size": "M",
+    "name": "Printed",
+    "image": "https://ih0.redbubble.net/image.31241910.4569/ra,unisex_tshirt,x2200,fafafa:ca443f4786,front-c,267,146,1000,1000-bg,f8f8f8.jpg",
+    "price": 190
+  },
+  {
+    "id": 6,
+    "size": 7,
+    "name": "Urban Hero",
+    "image": "https://ih0.redbubble.net/image.72281552.8874/ra,unisex_tshirt,x2200,101010:01c5ca27c6,front-c,267,146,1000,1000-bg,f8f8f8.u4.jpg",
+    "price": 325
+  },
+  {
+    "id": 7,
+    "size": "XL",
+    "name": "Art Ink",
+    "image": "https://ih1.redbubble.net/image.578176091.2751/ra,unisex_tshirt,x2200,fafafa:ca443f4786,front-c,267,146,1000,1000-bg,f8f8f8.u1.jpg",
+    "price": 305
+  },
+  {
+    "id": 7,
+    "size": 7,
+    "name": "Screen Print Gurus",
+    "image": "https://ih1.redbubble.net/image.924006353.4679/ra,unisex_tshirt,x2200,101010:01c5ca27c6,front-c,267,146,1000,1000-bg,f8f8f8.u1.jpg",
+    "price": 160
+  },
+  {
+    "id": 8,
+    "size": "X",
+    "name": "Imagination",
+    "image": "https://ih0.redbubble.net/image.924998231.8406/ra,unisex_tshirt,x2200,101010:01c5ca27c6,front-c,267,146,1000,1000-bg,f8f8f8.u7.jpg",
+    "price": 225
+  },
+  {
+    "id": 9,
+    "size": "M",
+    "name": "Inkman",
+    "image": "https://ih1.redbubble.net/image.801358661.9499/ra,vneck,x1900,fafafa:ca443f4786,front-c,160,70,1000,1000-bg,f8f8f8.u1.jpg",
+    "price": 275
+  },
+  {
+    "id": 10,
+    "size": "S",
+    "name": "Express Yourself",
+    "image": "https://ih0.redbubble.net/image.801358668.9499/gptr,1400x,front,black-c,188,133,1000,1000-bg,f8f8f8.u1.jpg",
+    "price": 137
+  },
+  {
+    "id": 11,
+    "size": "XXL",
+    "name": "Vibrant",
+    "image": "https://ih0.redbubble.net/image.825876166.0986/gptr,1400x,front,black-c,188,133,1000,1000-bg,f8f8f8.u1.jpg",
+    "price": 85
+  },
+  {
+    "id": 12,
+    "size": "X",
+    "name": "Colour Splash",
+    "image": "https://ih1.redbubble.net/image.483578284.5129/gptr,1400x,front,black-c,188,133,1000,1000-bg,f8f8f8.jpg",
+    "price": 90
+  }
+]

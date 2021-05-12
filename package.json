@@ -29,7 +29,7 @@
     "react-stars": "^2.2.5",
     "redux": "^4.0.5",
     "shortid": "^2.2.15",
-    "swiper": "^5.4.2"
+    "swiper": "^6.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
